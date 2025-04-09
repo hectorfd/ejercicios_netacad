@@ -9,6 +9,17 @@ while intercambio:
             
 print(lista) #!imprime la lista ordenada
 
+#* propia funcion de python sort()
+lista2 = [2,6,9,2,4,1]
+
+lista2.sort()
+print(lista2) #!imprime la lista ordenada
+
+#* uso de reverse() solo invierte la lista no ordena
+
+lista3 = [2,6,9,2,4,1]
+lista3.reverse()
+print(lista3) #!imprime la lista invertida
 
 
 # lista = [8, 10, 6, 2, 4]  # Índices: 0, 1, 2, 3, 4 -> 5 posiciones
